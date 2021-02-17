@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0px 14px;
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 36px;
+    padding: 0px 3px;
+
+}
+
+#navbar{
+    background-color: cyan;
+    padding: 13px 14px;
+    font-style: italic;
+    background-color:rgb(196, 106, 106);
+   
+    
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+   
+}
+
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: black;
+   
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    background: center/cover no-repeat url('../static/tshirt.jpg');
+    height: 519px;
+    
+}
+
+#sponserssection{
+    height: 300px;
+    background-color:rgb(209, 136, 136);
+}
+
+#sponserssection h2{
+    text-align: center;
+    padding-top:15px ;
+    font-family: cursive;
+    font-size: 32px;
+}
+#missionsection{
+    height: 340px;
+    margin:auto;
+    width: 83%;
+}
+#missionsection h2{
+    text-align: center;
+    font-family:cursive;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 15px;
+    height: 209px;
+    display: inline-block;
+    background-color: rgb(88, 79, 79);
+}
+
+.card h3{
+    margin:20px;
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img{
+    height: 100px;
+    padding: 0px 7px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 6px;
+}
+
+.card-content p{
+    font-size: 15px;
+}
+
+#sponsers{
+    height: 165px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-style: initial;
+
+}
+
+#introsection .small{
+    font-size: 27px;
+    padding: 5px;
+}

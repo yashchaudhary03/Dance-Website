@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title Harrys Dance Academy
+        block scripts
+        block style
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/img/dance1.jpg")
+                    | HDA
+                li #[a(href='/') home]
+                li #[a(href='/') about]
+                li #[a(href='/') services]
+                li #[a(href='/') class info]
+                li #[a(href='/contact') contact us]
+        block content
+    block foot 
+        #footer
+            | Copyright 2020 HarryDanceAcademy.com | All Rights Reserved
+           

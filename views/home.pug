@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#introsection
+        div Welcomt to harrys dance academy
+        div.small Eat.sleep.dance.repeat
+    section#missionsection
+        h2 Our mission
+        div.card
+            h3 dance perfection
+            div.card-box
+                div.card-img
+                    img(src="../static/img/dance.jpg")
+                div.card-content
+                    p this is the best dance academy of the universe
+
+        div.card
+            h3 dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="../static/img/dance2.jpg")
+                div.card-content
+                    p this is the best dance academy of the universe
+
+        div.card
+            h3 expert teaching
+            div.card-box
+                div.card-img
+                    img(src="../static/img/dance3.jpg")
+                div.card-content
+                    p this is the best dance academy of the universe
+    section#sponserssection
+        h2 Our sponsers
+        div#sponsers
+            img(src="/static/img/apple.jpg", alt="sponser image",class="spimage")
+            img(src="/static/img/hp.jpg", alt="sponser image",class="spimage")
+            img(src="/static/img/microsoft.jpg", alt="sponser image",class="spimage")
+            img(src="/static/img/skype.png", alt="sponser image",class="spimage")
+    script
+            include ../static/index.js
